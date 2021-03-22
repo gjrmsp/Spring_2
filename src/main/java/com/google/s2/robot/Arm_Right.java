@@ -1,13 +1,12 @@
-package com.google.s2;
+package com.google.s2.robot;
 
 import org.springframework.stereotype.Component;
 
-import com.google.s2.robot.Arm;
-
-@Component
+@Component("ar")
 public class Arm_Right extends Arm {
 
 	public Arm_Right() {
 		this.setName("Right Arm");
 	}
+	
 }
